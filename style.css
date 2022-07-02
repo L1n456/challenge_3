@@ -1,0 +1,108 @@
+body{
+    background: hsl(217, 54%, 11%);
+}
+
+.container{
+    background: hsl(216, 50%, 16%);
+    width: 23%;
+    height: 20%;
+    margin: 10% 35%;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.image{
+    position: relative;
+}
+.main{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 41.5%;
+    border-radius: 20px;
+    opacity: 0;
+}
+
+.top:hover{
+    opacity: 1;
+    background-color: hsl(178, 100%, 50%,0.5);
+}
+
+h2, span{
+    color: hsl(0, 0%, 100%);
+}
+
+h2:hover, span:hover{
+   color: hsl(178, 100%, 50%);
+}
+
+.text, .clock p, .profile p{
+    color: hsl(215, 51%, 70%);
+}
+
+.info{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.info img{
+    margin: 5px;
+}
+
+.diamond{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    border-color: hsl(215, 32%, 27%);
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+
+}
+
+.profile img{
+    height: 10%;
+    width: 10%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+    margin: 0px 5px;
+}
+
+@media screen and (max-width:375px) {
+    .container{
+        width: 70%;
+        height: 90%;
+        margin: 5% 10%;
+    }
+
+    .top{
+        padding: 40.5%;
+    }
+
+}
+
+
+
+
+
+
+
